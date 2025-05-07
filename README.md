@@ -28,4 +28,4 @@ terraform apply
 
 ### Test
 1. Finn `web_vm_public_ip` i utdata.
-2. Åpne `http://<web_vm_public_ip>/` i nettleseren.
+2. Åpne `http://<web_vm_public_ip>/` i nettleseren. Merk at det ikke vil fungere å nå webserveren på http da det er en feil i prosjektet som jeg ikke klarte å rette opp i.
