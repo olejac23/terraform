@@ -22,7 +22,7 @@ Dette prosjektet oppretter:
 ```bash
 git clone https://github.com/olejac23/terraform
 cd Arbeidskrav-terraform
-az login --use-device-code   Følg instruksene som dukker opp på skjermen.
+az login --use-device-code   FØLG INSTRUKSENE SOM DUKKER OPP PÅ SKJERMEN.
 terraform init
 terraform plan
 terraform apply
