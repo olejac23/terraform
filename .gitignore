@@ -1,0 +1,23 @@
+# === Terraform-spesifikke filer ===
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfplan
+crash.log
+
+# Lokale overrides (f.eks. backend config)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# === OS-spesifikke filer ===
+.DS_Store
+Thumbs.db
+
+# === Editor-/IDE-filer ===
+.vscode/
+.idea/
+*.swp
+*.bak
+*.tmp

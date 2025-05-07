@@ -1,0 +1,12 @@
+resource_group_name   = "Arbeidskrav-Ressursgruppe"
+location              = "westeurope"
+vnet_name             = "Arbeidskrav-VNet"
+address_space         = ["10.0.0.0/16"]
+web_subnet_name       = "Arbeidskrav-SubNet"
+web_subnet_prefix     = ["10.0.1.0/24"]
+db_subnet_name        = "db-subnet"
+db_subnet_prefix      = ["10.0.2.0/24"]
+web_vm_name           = "web-vm"
+db_vm_names           = ["db-vm-1", "db-vm-2"]
+admin_username        = "azureuser"
+admin_password        = "Student123"
